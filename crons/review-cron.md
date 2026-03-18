@@ -52,7 +52,7 @@ SCHRITT 9: Frontmatter aktualisieren
 
 SCHRITT 10: Git Push
 - cd [REPO]
-- BRANCH="research/$(date +%Y-%m-%d)"
+- BRANCH="research"
 - git checkout $BRANCH 2>/dev/null || git checkout -b $BRANCH
 - git add content/
 - git commit -m "Review [slug]: [status]"

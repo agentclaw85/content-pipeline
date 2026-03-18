@@ -46,8 +46,8 @@ SCHRITT 5: Proposal-Status ändern
 
 SCHRITT 6: Git Push auf Branch
 - cd [REPO]
-- BRANCH="research/$(date +%Y-%m-%d)"
-- git checkout $BRANCH 2>/dev/null || git checkout -b $BRANCH
+- BRANCH="research"
+- git checkout research 2>/dev/null || git checkout -b research
 - git add content/
 - git commit -m "Research: [slug] - status: draft"
 - git push origin $BRANCH

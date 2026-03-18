@@ -51,7 +51,7 @@ SCHRITT 7: Research-Status ändern
 
 SCHRITT 8: Git Push
 - cd [REPO]
-- BRANCH="research/$(date +%Y-%m-%d)"
+- BRANCH="research"
 - git checkout $BRANCH 2>/dev/null || git checkout -b $BRANCH
 - git add content/
 - git commit -m "Article: [slug]"
