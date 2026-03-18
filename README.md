@@ -36,7 +36,7 @@ content-pipeline/
 | 21:00 | Deep Research | `proposals/[slug]` (pending) | `research/[slug]` (draft) |
 | 22:00 | Review | `research/[slug]` (inreview/draft) | `research/[slug]` (final/rejected) |
 | 23:00 | Artikel | `research/[slug]` (final) | `generated/[slug]` (draft) |
-| */30min | Human Feedback | `human/[slug]` (open) | `generated/[slug]` aktualisiert |
+| Chat | Human Feedback | Chat-Nachricht | `generated/[slug]` aktualisiert |
 
 ## Status-Flow
 
