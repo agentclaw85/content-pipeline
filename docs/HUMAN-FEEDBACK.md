@@ -1,11 +1,13 @@
-# Human Feedback Cron
+# Human Feedback (Event-driven, kein Cron)
 
-## Zeitplan
+## Trigger
 
-- **Cron:** `*/30 * * * *` (alle 30 Minuten)
-- **Session:** isolated
-- **Model:** DeepSeek Free
-- **Delivery:** Telegram (announce)
+Kein Cron. Feedback wird **sofort** verarbeitet, wenn es im Chat eingereicht wird:
+
+1. User sendet Feedback-Nachricht
+2. Clawie speichert es in `/content/human/`
+3. Clawie wendet Feedback direkt an
+4. Ergebnis wird im Chat zurückgemeldet
 
 ## Prompt
 
