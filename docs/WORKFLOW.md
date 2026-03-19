@@ -131,7 +131,13 @@ created_at: '2026-03-18T21:00:00Z'
 title: 'SEO-optimierter Titel'
 date: '2027-03-09'
 author: 'Steffen'
+image: '/img/blog-placeholder-1.png'
+description: 'Meta-Description (155-160 chars)'
 slug: 'url-slug'
+alias: 'dateiname_ohne_endung'
+status: draft              # draft | inreview | final
+created_at: '2026-03-18T23:00:00Z'
+processed_at: '...'        # Optional: bei Feedbacks etc.
 ---
 
 # [Artikel-Content]
