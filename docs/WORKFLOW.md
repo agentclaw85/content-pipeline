@@ -70,7 +70,7 @@ Priorität: `inreview` > `draft`
 
 **Review-Prozess:**
 1. Faktenprüfung
-2. Link-Validierung (mind. 5 Links)
+2. Link-Validierung (alle Links)
 3. EU/OS-Check
 4. Auto-Fix (kleine Fehler)
 5. Markierung (große Probleme)
@@ -116,13 +116,13 @@ created_at: '2026-03-18T21:00:00Z'
 
 ### Artikel-Anforderungen
 
-- 2.000-2.500 Wörter
+- ca. 2.000 Wörter
 - H1 (keine separate Meta-Description)
-- Hook → Problem → Lösung
 - H2/H3-Hierarchie
 - Keine FAQ, kein Fazit-Call-to-Action
 - Natürlicher, erzählender Ton
-- Frontmatter minimal: nur `title`, `date`, `author`, `slug`
+- hilfreich, kein marketing sprecg
+- Frontmatter header
 
 ### Dateiformat
 
@@ -134,7 +134,6 @@ author: 'Steffen'
 image: '/img/blog-placeholder-1.png'
 description: 'Meta-Description (155-160 chars)'
 slug: 'url-slug'
-alias: 'dateiname_ohne_endung'
 status: draft              # draft | inreview | final
 created_at: '2026-03-18T23:00:00Z'
 processed_at: '...'        # Optional: bei Feedbacks etc.
