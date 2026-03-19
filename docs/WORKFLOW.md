@@ -87,12 +87,8 @@ Priorität: `inreview` > `draft`
 ---
 title: 'Titel'
 slug: 'url-slug'
-part: 4
-series: 'sicher-im-netz'
 status: draft              # draft | inreview | final | rejected
-source: 'proposal-dateiname'
 created_at: '2026-03-18T21:00:00Z'
-reviewed_at: '...'        # Nach Review hinzugefügt
 ---
 
 # Deep Research: [Titel]
@@ -121,13 +117,12 @@ reviewed_at: '...'        # Nach Review hinzugefügt
 ### Artikel-Anforderungen
 
 - 2.000-2.500 Wörter
-- H1 + Meta-Description (155-160 Zeichen)
+- H1 (keine separate Meta-Description)
 - Hook → Problem → Lösung
 - H2/H3-Hierarchie
-- FAQ-Sektion (4-6 Fragen)
-- Fazit mit CTA
-- Schema: Article + FAQ
-- Frontmatter mit allen Metadaten
+- Keine FAQ, kein Fazit-Call-to-Action
+- Natürlicher, erzählender Ton
+- Frontmatter minimal: nur `title`, `date`, `author`, `slug`
 
 ### Dateiformat
 
@@ -136,18 +131,7 @@ reviewed_at: '...'        # Nach Review hinzugefügt
 title: 'SEO-optimierter Titel'
 date: '2027-03-09'
 author: 'Steffen'
-description: 'Meta-Description (155-160 chars)'
 slug: 'url-slug'
-part: 4
-series: 'sicher-im-netz'
-status: draft              # draft | inreview | final
-source: 'research-slug'
-created_at: '2026-03-18T23:00:00Z'
-alias: 'dateiname_ohne_endung'
-schema: 'Article'
-faq:
-  - q: 'Frage?'
-    a: 'Antwort.'
 ---
 
 # [Artikel-Content]
